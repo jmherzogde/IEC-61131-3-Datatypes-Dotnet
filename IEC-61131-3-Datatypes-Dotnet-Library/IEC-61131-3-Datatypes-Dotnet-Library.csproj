@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>IEC_61131_3_Datatypes_Dotnet_Library</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Integers\" />
+    <None Remove="Reals\" />
+    <None Remove="Durations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reals\" />
+    <Folder Include="Durations\" />
+  </ItemGroup>
+</Project>
